@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20467BE01E6AD46B00A0D69E /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20467BDF1E6AD46B00A0D69E /* HomeVC.m */; };
+		20467BE31E6AD48800A0D69E /* FindVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20467BE21E6AD48800A0D69E /* FindVC.m */; };
+		20467BE61E6AD4D400A0D69E /* SettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20467BE51E6AD4D400A0D69E /* SettingVC.m */; };
+		20467BE91E6AD4EE00A0D69E /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20467BE81E6AD4EE00A0D69E /* MineVC.m */; };
 		2072423F1E62B97100783CD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2072423E1E62B97100783CD4 /* main.m */; };
 		207242421E62B97100783CD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 207242411E62B97100783CD4 /* AppDelegate.m */; };
 		207242451E62B97100783CD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 207242441E62B97100783CD4 /* ViewController.m */; };
@@ -87,6 +91,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20467BDE1E6AD46B00A0D69E /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		20467BDF1E6AD46B00A0D69E /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		20467BE11E6AD48800A0D69E /* FindVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindVC.h; sourceTree = "<group>"; };
+		20467BE21E6AD48800A0D69E /* FindVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindVC.m; sourceTree = "<group>"; };
+		20467BE41E6AD4D400A0D69E /* SettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingVC.h; sourceTree = "<group>"; };
+		20467BE51E6AD4D400A0D69E /* SettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingVC.m; sourceTree = "<group>"; };
+		20467BE71E6AD4EE00A0D69E /* MineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
+		20467BE81E6AD4EE00A0D69E /* MineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
 		2072423A1E62B97100783CD4 /* YiHeYun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YiHeYun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2072423E1E62B97100783CD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		207242401E62B97100783CD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -602,6 +614,8 @@
 		207243421E62CE0600783CD4 /* 发现 */ = {
 			isa = PBXGroup;
 			children = (
+				20467BE11E6AD48800A0D69E /* FindVC.h */,
+				20467BE21E6AD48800A0D69E /* FindVC.m */,
 			);
 			path = "发现";
 			sourceTree = "<group>";
@@ -609,6 +623,8 @@
 		207243431E62CE0600783CD4 /* 设定 */ = {
 			isa = PBXGroup;
 			children = (
+				20467BE41E6AD4D400A0D69E /* SettingVC.h */,
+				20467BE51E6AD4D400A0D69E /* SettingVC.m */,
 			);
 			path = "设定";
 			sourceTree = "<group>";
@@ -616,6 +632,8 @@
 		207243441E62CE0600783CD4 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
+				20467BDE1E6AD46B00A0D69E /* HomeVC.h */,
+				20467BDF1E6AD46B00A0D69E /* HomeVC.m */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -623,6 +641,8 @@
 		207243451E62CE0600783CD4 /* 我 */ = {
 			isa = PBXGroup;
 			children = (
+				20467BE71E6AD4EE00A0D69E /* MineVC.h */,
+				20467BE81E6AD4EE00A0D69E /* MineVC.m */,
 			);
 			path = "我";
 			sourceTree = "<group>";
@@ -836,6 +856,7 @@
 				207242FE1E62C2FB00783CD4 /* AEFlowLayoutView.m in Sources */,
 				207243061E62C2FB00783CD4 /* JHHJView.m in Sources */,
 				207243091E62C2FB00783CD4 /* OptionsBarItem.m in Sources */,
+				20467BE91E6AD4EE00A0D69E /* MineVC.m in Sources */,
 				207243071E62C2FB00783CD4 /* BottomLineView.m in Sources */,
 				207243311E62C34800783CD4 /* UILabel+Add.m in Sources */,
 				207242FA1E62C2FB00783CD4 /* PGIndexBannerSubiew.m in Sources */,
@@ -848,6 +869,7 @@
 				207243041E62C2FB00783CD4 /* JHHJAnimation.m in Sources */,
 				207243341E62C34800783CD4 /* NSDictionary+DeleteNULL.m in Sources */,
 				2072431E1E62C2FB00783CD4 /* Utils.m in Sources */,
+				20467BE01E6AD46B00A0D69E /* HomeVC.m in Sources */,
 				207243331E62C34800783CD4 /* UIView+Extension.m in Sources */,
 				207243351E62C34800783CD4 /* UITabBar+RedPoint.m in Sources */,
 				2072430A1E62C2FB00783CD4 /* OptionsBarView.m in Sources */,
@@ -855,11 +877,13 @@
 				207242F81E62C2FB00783CD4 /* UILabel+PPCounter.m in Sources */,
 				207243011E62C2FB00783CD4 /* ImgScrollView.m in Sources */,
 				207242FC1E62C2FB00783CD4 /* AEEmitterButton.m in Sources */,
+				20467BE31E6AD48800A0D69E /* FindVC.m in Sources */,
 				2072432F1E62C34800783CD4 /* UIImage+Color.m in Sources */,
 				207243191E62C2FB00783CD4 /* AEButton.m in Sources */,
 				207243001E62C2FB00783CD4 /* ImgLargeScrollView.m in Sources */,
 				207242781E62C13500783CD4 /* NetworkUtil.m in Sources */,
 				207243181E62C2FB00783CD4 /* AEToast.m in Sources */,
+				20467BE61E6AD4D400A0D69E /* SettingVC.m in Sources */,
 				207242FF1E62C2FB00783CD4 /* ImageViewer.m in Sources */,
 				207242FB1E62C2FB00783CD4 /* DefaultView.m in Sources */,
 				207243021E62C2FB00783CD4 /* TapImageView.m in Sources */,
