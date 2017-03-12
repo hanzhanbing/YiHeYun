@@ -21,6 +21,9 @@
 		044AC5121E6FFB3100EE43E3 /* BloodSugarSetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AC5111E6FFB3100EE43E3 /* BloodSugarSetVC.m */; };
 		044AC5151E6FFBA700EE43E3 /* HeartRateSetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AC5141E6FFBA700EE43E3 /* HeartRateSetVC.m */; };
 		044AC5181E6FFBBD00EE43E3 /* BloodPressureSetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AC5171E6FFBBD00EE43E3 /* BloodPressureSetVC.m */; };
+		201CA26E1E7571DC00E7DFE7 /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 201CA26D1E7571DC00E7DFE7 /* RegisterVC.m */; };
+		201CA2711E7571F400E7DFE7 /* ForgetPswVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 201CA2701E7571F400E7DFE7 /* ForgetPswVC.m */; };
+		201CA2741E75805300E7DFE7 /* SetPswVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 201CA2731E75805300E7DFE7 /* SetPswVC.m */; };
 		2071EF1E1E74F82C001020D7 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2071EF1D1E74F82C001020D7 /* NetworkManager.m */; };
 		2071EF211E74F850001020D7 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2071EF201E74F850001020D7 /* UserInfo.m */; };
 		2072423F1E62B97100783CD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2072423E1E62B97100783CD4 /* main.m */; };
@@ -111,6 +114,12 @@
 		044AC5141E6FFBA700EE43E3 /* HeartRateSetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartRateSetVC.m; sourceTree = "<group>"; };
 		044AC5161E6FFBBD00EE43E3 /* BloodPressureSetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureSetVC.h; sourceTree = "<group>"; };
 		044AC5171E6FFBBD00EE43E3 /* BloodPressureSetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureSetVC.m; sourceTree = "<group>"; };
+		201CA26C1E7571DC00E7DFE7 /* RegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
+		201CA26D1E7571DC00E7DFE7 /* RegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
+		201CA26F1E7571F400E7DFE7 /* ForgetPswVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPswVC.h; sourceTree = "<group>"; };
+		201CA2701E7571F400E7DFE7 /* ForgetPswVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPswVC.m; sourceTree = "<group>"; };
+		201CA2721E75805300E7DFE7 /* SetPswVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetPswVC.h; sourceTree = "<group>"; };
+		201CA2731E75805300E7DFE7 /* SetPswVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetPswVC.m; sourceTree = "<group>"; };
 		2071EF1C1E74F82C001020D7 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
 		2071EF1D1E74F82C001020D7 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		2071EF1F1E74F850001020D7 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
@@ -597,6 +606,12 @@
 			children = (
 				044AC4F81E6FDFEE00EE43E3 /* LoginVC.h */,
 				044AC4F91E6FDFEE00EE43E3 /* LoginVC.m */,
+				201CA26C1E7571DC00E7DFE7 /* RegisterVC.h */,
+				201CA26D1E7571DC00E7DFE7 /* RegisterVC.m */,
+				201CA26F1E7571F400E7DFE7 /* ForgetPswVC.h */,
+				201CA2701E7571F400E7DFE7 /* ForgetPswVC.m */,
+				201CA2721E75805300E7DFE7 /* SetPswVC.h */,
+				201CA2731E75805300E7DFE7 /* SetPswVC.m */,
 			);
 			path = "登录";
 			sourceTree = "<group>";
@@ -821,6 +836,7 @@
 				207243051E62C2FB00783CD4 /* JHHJCenterBGView.m in Sources */,
 				207242F81E62C2FB00783CD4 /* UILabel+PPCounter.m in Sources */,
 				207243011E62C2FB00783CD4 /* ImgScrollView.m in Sources */,
+				201CA2711E7571F400E7DFE7 /* ForgetPswVC.m in Sources */,
 				207242FC1E62C2FB00783CD4 /* AEEmitterButton.m in Sources */,
 				2072432F1E62C34800783CD4 /* UIImage+Color.m in Sources */,
 				207243191E62C2FB00783CD4 /* AEButton.m in Sources */,
@@ -833,11 +849,13 @@
 				044AC50C1E6FF18A00EE43E3 /* WeatherRemindVC.m in Sources */,
 				044AC5031E6FE17300EE43E3 /* SetUpVC.m in Sources */,
 				207242FB1E62C2FB00783CD4 /* DefaultView.m in Sources */,
+				201CA2741E75805300E7DFE7 /* SetPswVC.m in Sources */,
 				207243021E62C2FB00783CD4 /* TapImageView.m in Sources */,
 				207242451E62B97100783CD4 /* ViewController.m in Sources */,
 				207243301E62C34800783CD4 /* UIImage+Additions.m in Sources */,
 				044AC4FA1E6FDFEE00EE43E3 /* LoginVC.m in Sources */,
 				207243171E62C2FB00783CD4 /* StarRatingView.m in Sources */,
+				201CA26E1E7571DC00E7DFE7 /* RegisterVC.m in Sources */,
 				207242421E62B97100783CD4 /* AppDelegate.m in Sources */,
 				207243361E62C34800783CD4 /* UITabBar+BadgeValue.m in Sources */,
 				044AC50F1E6FF82A00EE43E3 /* StupCountSetVC.m in Sources */,

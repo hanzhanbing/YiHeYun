@@ -17,21 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    NSDictionary *dic = [NSDictionary dictionaryWithObjectsAndKeys:
-                         @"navy", @"loginName",
-                         @"511B0D5F341BDDBD9A5348923B48D14C", @"password",
-                         nil];
-    [[NetworkManager sharedManager] postJSON:URL_Login parameters:dic imagePath:nil completion:^(id responseData, RequestState status, NSError *error) {
-        
-        if (status == Request_Success) {
-            [Utils showToast:@"登录成功"];
-            
-            [[UserInfo share] setUserInfo:responseData];
-        } else {
-            [Utils showToast:@"登录失败"];
-        }
-    }];
+
     
     return YES;
 }

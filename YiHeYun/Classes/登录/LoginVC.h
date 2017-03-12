@@ -10,4 +10,11 @@
 
 @interface LoginVC : BaseVC
 
+@property (weak, nonatomic) IBOutlet UITextField *accountTF;
+
+@property (weak, nonatomic) IBOutlet UITextField *psWTF;
+
+- (IBAction)forgetPswAction:(id)sender;
+- (IBAction)loginAction:(id)sender;
+
 @end
