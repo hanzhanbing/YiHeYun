@@ -24,13 +24,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    ;
     self.view.backgroundColor = PageColor;
+    self.navigationController.navigationBar.hidden = YES;
     
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.navigationController.automaticallyAdjustsScrollViewInsets = NO;
     self.tableFrame = CGRectMake(0, 64, WIDTH, HEIGHT-64);
-    
+
     [self setNavBar];
     
     __weak id weakSelf = self;
@@ -72,7 +73,12 @@
     if ([[self.navigationController viewControllers] count] == 1) {
         
     } else {
-        UIBarButtonItem *backBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"Back"] style:UIBarButtonItemStylePlain target:self action:@selector(backAction)];
+        UIButton *bb = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 40, 44)];
+        [bb setImage:[UIImage imageNamed:@"backIcon"] forState:0];
+        bb.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+        [bb addTarget:self action:@selector(backAction) forControlEvents:UIControlEventTouchUpInside];
+        UIBarButtonItem *backBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:bb];;
+//        [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"backIcon"] style:UIBarButtonItemStylePlain target:self action:@selector(backAction)];
         self.navItem.leftBarButtonItem = backBarButtonItem;
     }
 }
@@ -214,7 +220,7 @@
     [super viewWillDisappear:animated];
     
     //显示系统导航条
-    [self.navigationController setNavigationBarHidden:NO];
+//    [self.navigationController setNavigationBarHidden:NO];
     [JHHJView hideLoading]; //结束加载
 }
 

@@ -24,6 +24,7 @@
 #import <UIButton+WebCache.h>
 #import "MJExtension.h"
 #import "DefaultView.h"
+#import "UserInfo.h"
 
 #endif
 
@@ -41,9 +42,21 @@
 #define kColorFromARGBHex(value,a) [UIColor colorWithRed:((float)((value & 0xFF0000) >> 16))/255.0 green:((float)((value & 0xFF00) >> 8))/255.0 blue:((float)(value & 0xFF))/255.0 alpha:a] //a:透明度
 #define kColorFromRGBHex(value) [UIColor colorWithRed:((float)((value & 0xFF0000) >> 16))/255.0 green:((float)((value & 0xFF00) >> 8))/255.0 blue:((float)(value & 0xFF))/255.0 alpha:1.0]
 
+
+#define SureButtonTitleColor  [UIColor greenColor]
+
 #define AppThemeColor [UIColor purpleColor]
-#define PageColor kColorFromRGBHex(0xF6F6F6)
+#define PageColor [UIColor groupTableViewBackgroundColor]
 #define LightBlackColor [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.8]
 #define LineColor kColorFromRGBHex(0xb2b2b2)
+
+/**
+ *  完美解决Xcode NSLog打印不全的宏 亲测目前支持到8.2bate版
+ */
+#ifdef DEBUG
+#define NSLog(...) printf("%f %s\n",[[NSDate date]timeIntervalSince1970],[[NSString stringWithFormat:__VA_ARGS__]UTF8String]);
+#else
+#define NSLog(format, ...)
+#endif
 
 #endif /* YiHeYun_pch */

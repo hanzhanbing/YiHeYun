@@ -7,19 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20467BE01E6AD46B00A0D69E /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20467BDF1E6AD46B00A0D69E /* HomeVC.m */; };
-		20467BE31E6AD48800A0D69E /* FindVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20467BE21E6AD48800A0D69E /* FindVC.m */; };
-		20467BE61E6AD4D400A0D69E /* SettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20467BE51E6AD4D400A0D69E /* SettingVC.m */; };
-		20467BE91E6AD4EE00A0D69E /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20467BE81E6AD4EE00A0D69E /* MineVC.m */; };
+		0434E1BD1E7277450088D533 /* ZSPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0434E1BC1E7277450088D533 /* ZSPickView.m */; };
+		0434E1C01E728CC00088D533 /* SelectTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0434E1BF1E728CC00088D533 /* SelectTimeView.m */; };
+		0434E1C61E729C660088D533 /* PanProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0434E1C51E729C660088D533 /* PanProgressView.m */; };
+		044AC4FA1E6FDFEE00EE43E3 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AC4F91E6FDFEE00EE43E3 /* LoginVC.m */; };
+		044AC4FD1E6FE12100EE43E3 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AC4FC1E6FE12100EE43E3 /* HomeVC.m */; };
+		044AC5001E6FE13B00EE43E3 /* FindVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AC4FF1E6FE13B00EE43E3 /* FindVC.m */; };
+		044AC5031E6FE17300EE43E3 /* SetUpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AC5021E6FE17300EE43E3 /* SetUpVC.m */; };
+		044AC5061E6FE18400EE43E3 /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AC5051E6FE18400EE43E3 /* MineVC.m */; };
+		044AC5091E6FF16E00EE43E3 /* LongSitRemindSetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AC5081E6FF16E00EE43E3 /* LongSitRemindSetVC.m */; };
+		044AC50C1E6FF18A00EE43E3 /* WeatherRemindVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AC50B1E6FF18A00EE43E3 /* WeatherRemindVC.m */; };
+		044AC50F1E6FF82A00EE43E3 /* StupCountSetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AC50E1E6FF82A00EE43E3 /* StupCountSetVC.m */; };
+		044AC5121E6FFB3100EE43E3 /* BloodSugarSetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AC5111E6FFB3100EE43E3 /* BloodSugarSetVC.m */; };
+		044AC5151E6FFBA700EE43E3 /* HeartRateSetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AC5141E6FFBA700EE43E3 /* HeartRateSetVC.m */; };
+		044AC5181E6FFBBD00EE43E3 /* BloodPressureSetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 044AC5171E6FFBBD00EE43E3 /* BloodPressureSetVC.m */; };
+		2071EF1E1E74F82C001020D7 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2071EF1D1E74F82C001020D7 /* NetworkManager.m */; };
+		2071EF211E74F850001020D7 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2071EF201E74F850001020D7 /* UserInfo.m */; };
 		2072423F1E62B97100783CD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2072423E1E62B97100783CD4 /* main.m */; };
 		207242421E62B97100783CD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 207242411E62B97100783CD4 /* AppDelegate.m */; };
 		207242451E62B97100783CD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 207242441E62B97100783CD4 /* ViewController.m */; };
 		207242481E62B97100783CD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207242461E62B97100783CD4 /* Main.storyboard */; };
 		2072424A1E62B97100783CD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207242491E62B97100783CD4 /* Assets.xcassets */; };
 		2072424D1E62B97100783CD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2072424B1E62B97100783CD4 /* LaunchScreen.storyboard */; };
-		207242581E62B97100783CD4 /* YiHeYunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207242571E62B97100783CD4 /* YiHeYunTests.m */; };
-		207242631E62B97100783CD4 /* YiHeYunUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207242621E62B97100783CD4 /* YiHeYunUITests.m */; };
-		207242771E62C13500783CD4 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 207242741E62C13500783CD4 /* NetworkManager.m */; };
 		207242781E62C13500783CD4 /* NetworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 207242761E62C13500783CD4 /* NetworkUtil.m */; };
 		207242F01E62C2FB00783CD4 /* AEFilePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 207242861E62C2FB00783CD4 /* AEFilePath.m */; };
 		207242F11E62C2FB00783CD4 /* AEAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 207242891E62C2FB00783CD4 /* AEAlertView.m */; };
@@ -73,32 +82,39 @@
 		3F83B1EC07029C604D2C6AB1 /* libPods-YiHeYun.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C52900FDCF0578B3A78110 /* libPods-YiHeYun.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		207242541E62B97100783CD4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 207242321E62B97100783CD4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 207242391E62B97100783CD4;
-			remoteInfo = YiHeYun;
-		};
-		2072425F1E62B97100783CD4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 207242321E62B97100783CD4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 207242391E62B97100783CD4;
-			remoteInfo = YiHeYun;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		20467BDE1E6AD46B00A0D69E /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
-		20467BDF1E6AD46B00A0D69E /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
-		20467BE11E6AD48800A0D69E /* FindVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindVC.h; sourceTree = "<group>"; };
-		20467BE21E6AD48800A0D69E /* FindVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindVC.m; sourceTree = "<group>"; };
-		20467BE41E6AD4D400A0D69E /* SettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingVC.h; sourceTree = "<group>"; };
-		20467BE51E6AD4D400A0D69E /* SettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingVC.m; sourceTree = "<group>"; };
-		20467BE71E6AD4EE00A0D69E /* MineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
-		20467BE81E6AD4EE00A0D69E /* MineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
+		0434E1BB1E7277450088D533 /* ZSPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSPickView.h; sourceTree = "<group>"; };
+		0434E1BC1E7277450088D533 /* ZSPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSPickView.m; sourceTree = "<group>"; };
+		0434E1BE1E728CC00088D533 /* SelectTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectTimeView.h; sourceTree = "<group>"; };
+		0434E1BF1E728CC00088D533 /* SelectTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectTimeView.m; sourceTree = "<group>"; };
+		0434E1C41E729C660088D533 /* PanProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanProgressView.h; sourceTree = "<group>"; };
+		0434E1C51E729C660088D533 /* PanProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanProgressView.m; sourceTree = "<group>"; };
+		044AC4F81E6FDFEE00EE43E3 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		044AC4F91E6FDFEE00EE43E3 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		044AC4FB1E6FE12100EE43E3 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		044AC4FC1E6FE12100EE43E3 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		044AC4FE1E6FE13B00EE43E3 /* FindVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindVC.h; sourceTree = "<group>"; };
+		044AC4FF1E6FE13B00EE43E3 /* FindVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindVC.m; sourceTree = "<group>"; };
+		044AC5011E6FE17300EE43E3 /* SetUpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetUpVC.h; sourceTree = "<group>"; };
+		044AC5021E6FE17300EE43E3 /* SetUpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetUpVC.m; sourceTree = "<group>"; };
+		044AC5041E6FE18400EE43E3 /* MineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
+		044AC5051E6FE18400EE43E3 /* MineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
+		044AC5071E6FF16E00EE43E3 /* LongSitRemindSetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongSitRemindSetVC.h; sourceTree = "<group>"; };
+		044AC5081E6FF16E00EE43E3 /* LongSitRemindSetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongSitRemindSetVC.m; sourceTree = "<group>"; };
+		044AC50A1E6FF18A00EE43E3 /* WeatherRemindVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherRemindVC.h; sourceTree = "<group>"; };
+		044AC50B1E6FF18A00EE43E3 /* WeatherRemindVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherRemindVC.m; sourceTree = "<group>"; };
+		044AC50D1E6FF82A00EE43E3 /* StupCountSetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StupCountSetVC.h; sourceTree = "<group>"; };
+		044AC50E1E6FF82A00EE43E3 /* StupCountSetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StupCountSetVC.m; sourceTree = "<group>"; };
+		044AC5101E6FFB3100EE43E3 /* BloodSugarSetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodSugarSetVC.h; sourceTree = "<group>"; };
+		044AC5111E6FFB3100EE43E3 /* BloodSugarSetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodSugarSetVC.m; sourceTree = "<group>"; };
+		044AC5131E6FFBA700EE43E3 /* HeartRateSetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartRateSetVC.h; sourceTree = "<group>"; };
+		044AC5141E6FFBA700EE43E3 /* HeartRateSetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartRateSetVC.m; sourceTree = "<group>"; };
+		044AC5161E6FFBBD00EE43E3 /* BloodPressureSetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureSetVC.h; sourceTree = "<group>"; };
+		044AC5171E6FFBBD00EE43E3 /* BloodPressureSetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureSetVC.m; sourceTree = "<group>"; };
+		2071EF1C1E74F82C001020D7 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		2071EF1D1E74F82C001020D7 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		2071EF1F1E74F850001020D7 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		2071EF201E74F850001020D7 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
 		2072423A1E62B97100783CD4 /* YiHeYun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YiHeYun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2072423E1E62B97100783CD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		207242401E62B97100783CD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,16 +125,8 @@
 		207242491E62B97100783CD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2072424C1E62B97100783CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2072424E1E62B97100783CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		207242531E62B97100783CD4 /* YiHeYunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YiHeYunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		207242571E62B97100783CD4 /* YiHeYunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YiHeYunTests.m; sourceTree = "<group>"; };
-		207242591E62B97100783CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2072425E1E62B97100783CD4 /* YiHeYunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YiHeYunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		207242621E62B97100783CD4 /* YiHeYunUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YiHeYunUITests.m; sourceTree = "<group>"; };
-		207242641E62B97100783CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		207242701E62BFAC00783CD4 /* YiHeYun.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YiHeYun.pch; sourceTree = "<group>"; };
 		207242711E62C0BD00783CD4 /* ServerUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerUrl.h; sourceTree = "<group>"; };
-		207242731E62C13500783CD4 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
-		207242741E62C13500783CD4 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		207242751E62C13500783CD4 /* NetworkUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkUtil.h; sourceTree = "<group>"; };
 		207242761E62C13500783CD4 /* NetworkUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkUtil.m; sourceTree = "<group>"; };
 		207242851E62C2FB00783CD4 /* AEFilePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEFilePath.h; sourceTree = "<group>"; };
@@ -227,23 +235,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		207242501E62B97100783CD4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2072425B1E62B97100783CD4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0434E1BA1E72773D0088D533 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0434E1C41E729C660088D533 /* PanProgressView.h */,
+				0434E1C51E729C660088D533 /* PanProgressView.m */,
+				0434E1BE1E728CC00088D533 /* SelectTimeView.h */,
+				0434E1BF1E728CC00088D533 /* SelectTimeView.m */,
+				0434E1BB1E7277450088D533 /* ZSPickView.h */,
+				0434E1BC1E7277450088D533 /* ZSPickView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0E5FEDA3998805E518200B16 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -257,8 +264,6 @@
 			isa = PBXGroup;
 			children = (
 				2072423C1E62B97100783CD4 /* YiHeYun */,
-				207242561E62B97100783CD4 /* YiHeYunTests */,
-				207242611E62B97100783CD4 /* YiHeYunUITests */,
 				2072423B1E62B97100783CD4 /* Products */,
 				0E5FEDA3998805E518200B16 /* Pods */,
 				5BA5BD6F4DD78EEBB31B0139 /* Frameworks */,
@@ -269,8 +274,6 @@
 			isa = PBXGroup;
 			children = (
 				2072423A1E62B97100783CD4 /* YiHeYun.app */,
-				207242531E62B97100783CD4 /* YiHeYunTests.xctest */,
-				2072425E1E62B97100783CD4 /* YiHeYunUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -280,7 +283,6 @@
 			children = (
 				207242401E62B97100783CD4 /* AppDelegate.h */,
 				207242411E62B97100783CD4 /* AppDelegate.m */,
-				207242491E62B97100783CD4 /* Assets.xcassets */,
 				207242701E62BFAC00783CD4 /* YiHeYun.pch */,
 				207242711E62C0BD00783CD4 /* ServerUrl.h */,
 				207242431E62B97100783CD4 /* ViewController.h */,
@@ -290,6 +292,7 @@
 				2072427B1E62C25C00783CD4 /* Classes */,
 				2072427C1E62C25C00783CD4 /* Model */,
 				2072427E1E62C25C00783CD4 /* Tools */,
+				0434E1BA1E72773D0088D533 /* View */,
 				2072427A1E62C25C00783CD4 /* Category */,
 				2072427D1E62C25C00783CD4 /* ThirdParty */,
 				2072423D1E62B97100783CD4 /* Supporting Files */,
@@ -300,6 +303,7 @@
 		2072423D1E62B97100783CD4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				207242491E62B97100783CD4 /* Assets.xcassets */,
 				207242461E62B97100783CD4 /* Main.storyboard */,
 				2072424B1E62B97100783CD4 /* LaunchScreen.storyboard */,
 				2072424E1E62B97100783CD4 /* Info.plist */,
@@ -308,29 +312,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		207242561E62B97100783CD4 /* YiHeYunTests */ = {
-			isa = PBXGroup;
-			children = (
-				207242571E62B97100783CD4 /* YiHeYunTests.m */,
-				207242591E62B97100783CD4 /* Info.plist */,
-			);
-			path = YiHeYunTests;
-			sourceTree = "<group>";
-		};
-		207242611E62B97100783CD4 /* YiHeYunUITests */ = {
-			isa = PBXGroup;
-			children = (
-				207242621E62B97100783CD4 /* YiHeYunUITests.m */,
-				207242641E62B97100783CD4 /* Info.plist */,
-			);
-			path = YiHeYunUITests;
-			sourceTree = "<group>";
-		};
 		207242721E62C12200783CD4 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				207242731E62C13500783CD4 /* NetworkManager.h */,
-				207242741E62C13500783CD4 /* NetworkManager.m */,
+				2071EF1C1E74F82C001020D7 /* NetworkManager.h */,
+				2071EF1D1E74F82C001020D7 /* NetworkManager.m */,
 				207242751E62C13500783CD4 /* NetworkUtil.h */,
 				207242761E62C13500783CD4 /* NetworkUtil.m */,
 			);
@@ -387,6 +373,8 @@
 		2072427C1E62C25C00783CD4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2071EF1F1E74F850001020D7 /* UserInfo.h */,
+				2071EF201E74F850001020D7 /* UserInfo.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -607,6 +595,8 @@
 		207243411E62CE0600783CD4 /* 登录 */ = {
 			isa = PBXGroup;
 			children = (
+				044AC4F81E6FDFEE00EE43E3 /* LoginVC.h */,
+				044AC4F91E6FDFEE00EE43E3 /* LoginVC.m */,
 			);
 			path = "登录";
 			sourceTree = "<group>";
@@ -614,8 +604,8 @@
 		207243421E62CE0600783CD4 /* 发现 */ = {
 			isa = PBXGroup;
 			children = (
-				20467BE11E6AD48800A0D69E /* FindVC.h */,
-				20467BE21E6AD48800A0D69E /* FindVC.m */,
+				044AC4FE1E6FE13B00EE43E3 /* FindVC.h */,
+				044AC4FF1E6FE13B00EE43E3 /* FindVC.m */,
 			);
 			path = "发现";
 			sourceTree = "<group>";
@@ -623,8 +613,20 @@
 		207243431E62CE0600783CD4 /* 设定 */ = {
 			isa = PBXGroup;
 			children = (
-				20467BE41E6AD4D400A0D69E /* SettingVC.h */,
-				20467BE51E6AD4D400A0D69E /* SettingVC.m */,
+				044AC5011E6FE17300EE43E3 /* SetUpVC.h */,
+				044AC5021E6FE17300EE43E3 /* SetUpVC.m */,
+				044AC5071E6FF16E00EE43E3 /* LongSitRemindSetVC.h */,
+				044AC5081E6FF16E00EE43E3 /* LongSitRemindSetVC.m */,
+				044AC50A1E6FF18A00EE43E3 /* WeatherRemindVC.h */,
+				044AC50B1E6FF18A00EE43E3 /* WeatherRemindVC.m */,
+				044AC50D1E6FF82A00EE43E3 /* StupCountSetVC.h */,
+				044AC50E1E6FF82A00EE43E3 /* StupCountSetVC.m */,
+				044AC5101E6FFB3100EE43E3 /* BloodSugarSetVC.h */,
+				044AC5111E6FFB3100EE43E3 /* BloodSugarSetVC.m */,
+				044AC5131E6FFBA700EE43E3 /* HeartRateSetVC.h */,
+				044AC5141E6FFBA700EE43E3 /* HeartRateSetVC.m */,
+				044AC5161E6FFBBD00EE43E3 /* BloodPressureSetVC.h */,
+				044AC5171E6FFBBD00EE43E3 /* BloodPressureSetVC.m */,
 			);
 			path = "设定";
 			sourceTree = "<group>";
@@ -632,8 +634,8 @@
 		207243441E62CE0600783CD4 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
-				20467BDE1E6AD46B00A0D69E /* HomeVC.h */,
-				20467BDF1E6AD46B00A0D69E /* HomeVC.m */,
+				044AC4FB1E6FE12100EE43E3 /* HomeVC.h */,
+				044AC4FC1E6FE12100EE43E3 /* HomeVC.m */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -641,8 +643,8 @@
 		207243451E62CE0600783CD4 /* 我 */ = {
 			isa = PBXGroup;
 			children = (
-				20467BE71E6AD4EE00A0D69E /* MineVC.h */,
-				20467BE81E6AD4EE00A0D69E /* MineVC.m */,
+				044AC5041E6FE18400EE43E3 /* MineVC.h */,
+				044AC5051E6FE18400EE43E3 /* MineVC.m */,
 			);
 			path = "我";
 			sourceTree = "<group>";
@@ -678,42 +680,6 @@
 			productReference = 2072423A1E62B97100783CD4 /* YiHeYun.app */;
 			productType = "com.apple.product-type.application";
 		};
-		207242521E62B97100783CD4 /* YiHeYunTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2072426A1E62B97100783CD4 /* Build configuration list for PBXNativeTarget "YiHeYunTests" */;
-			buildPhases = (
-				2072424F1E62B97100783CD4 /* Sources */,
-				207242501E62B97100783CD4 /* Frameworks */,
-				207242511E62B97100783CD4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				207242551E62B97100783CD4 /* PBXTargetDependency */,
-			);
-			name = YiHeYunTests;
-			productName = YiHeYunTests;
-			productReference = 207242531E62B97100783CD4 /* YiHeYunTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2072425D1E62B97100783CD4 /* YiHeYunUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2072426D1E62B97100783CD4 /* Build configuration list for PBXNativeTarget "YiHeYunUITests" */;
-			buildPhases = (
-				2072425A1E62B97100783CD4 /* Sources */,
-				2072425B1E62B97100783CD4 /* Frameworks */,
-				2072425C1E62B97100783CD4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				207242601E62B97100783CD4 /* PBXTargetDependency */,
-			);
-			name = YiHeYunUITests;
-			productName = YiHeYunUITests;
-			productReference = 2072425E1E62B97100783CD4 /* YiHeYunUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -727,16 +693,6 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = M2CBW36AQZ;
 						ProvisioningStyle = Manual;
-					};
-					207242521E62B97100783CD4 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 207242391E62B97100783CD4;
-					};
-					2072425D1E62B97100783CD4 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 207242391E62B97100783CD4;
 					};
 				};
 			};
@@ -754,8 +710,6 @@
 			projectRoot = "";
 			targets = (
 				207242391E62B97100783CD4 /* YiHeYun */,
-				207242521E62B97100783CD4 /* YiHeYunTests */,
-				2072425D1E62B97100783CD4 /* YiHeYunUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -775,20 +729,6 @@
 				2072424A1E62B97100783CD4 /* Assets.xcassets in Resources */,
 				207242481E62B97100783CD4 /* Main.storyboard in Resources */,
 				207243141E62C2FB00783CD4 /* star_empty@3x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		207242511E62B97100783CD4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2072425C1E62B97100783CD4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -849,49 +789,60 @@
 			files = (
 				207242F51E62C2FB00783CD4 /* PPCounterConst.m in Sources */,
 				207242F11E62C2FB00783CD4 /* AEAlertView.m in Sources */,
+				2071EF211E74F850001020D7 /* UserInfo.m in Sources */,
 				207242F71E62C2FB00783CD4 /* UIButton+PPCounter.m in Sources */,
+				044AC5091E6FF16E00EE43E3 /* LongSitRemindSetVC.m in Sources */,
 				207243031E62C2FB00783CD4 /* AEIndicator.m in Sources */,
+				0434E1C01E728CC00088D533 /* SelectTimeView.m in Sources */,
 				207242F61E62C2FB00783CD4 /* PPCounterEngine.m in Sources */,
+				0434E1C61E729C660088D533 /* PanProgressView.m in Sources */,
 				2072433E1E62C9F500783CD4 /* BaseNC.m in Sources */,
 				207242FE1E62C2FB00783CD4 /* AEFlowLayoutView.m in Sources */,
 				207243061E62C2FB00783CD4 /* JHHJView.m in Sources */,
 				207243091E62C2FB00783CD4 /* OptionsBarItem.m in Sources */,
-				20467BE91E6AD4EE00A0D69E /* MineVC.m in Sources */,
 				207243071E62C2FB00783CD4 /* BottomLineView.m in Sources */,
 				207243311E62C34800783CD4 /* UILabel+Add.m in Sources */,
 				207242FA1E62C2FB00783CD4 /* PGIndexBannerSubiew.m in Sources */,
 				2072431A1E62C2FB00783CD4 /* AEUITextField.m in Sources */,
 				2072433F1E62C9F500783CD4 /* BaseVC.m in Sources */,
 				207242F01E62C2FB00783CD4 /* AEFilePath.m in Sources */,
-				207242771E62C13500783CD4 /* NetworkManager.m in Sources */,
+				0434E1BD1E7277450088D533 /* ZSPickView.m in Sources */,
 				207242F21E62C2FB00783CD4 /* AEMoreView.m in Sources */,
 				207242F91E62C2FB00783CD4 /* NewPagedFlowView.m in Sources */,
+				044AC5121E6FFB3100EE43E3 /* BloodSugarSetVC.m in Sources */,
 				207243041E62C2FB00783CD4 /* JHHJAnimation.m in Sources */,
 				207243341E62C34800783CD4 /* NSDictionary+DeleteNULL.m in Sources */,
 				2072431E1E62C2FB00783CD4 /* Utils.m in Sources */,
-				20467BE01E6AD46B00A0D69E /* HomeVC.m in Sources */,
+				044AC5181E6FFBBD00EE43E3 /* BloodPressureSetVC.m in Sources */,
 				207243331E62C34800783CD4 /* UIView+Extension.m in Sources */,
 				207243351E62C34800783CD4 /* UITabBar+RedPoint.m in Sources */,
+				2071EF1E1E74F82C001020D7 /* NetworkManager.m in Sources */,
 				2072430A1E62C2FB00783CD4 /* OptionsBarView.m in Sources */,
 				207243051E62C2FB00783CD4 /* JHHJCenterBGView.m in Sources */,
 				207242F81E62C2FB00783CD4 /* UILabel+PPCounter.m in Sources */,
 				207243011E62C2FB00783CD4 /* ImgScrollView.m in Sources */,
 				207242FC1E62C2FB00783CD4 /* AEEmitterButton.m in Sources */,
-				20467BE31E6AD48800A0D69E /* FindVC.m in Sources */,
 				2072432F1E62C34800783CD4 /* UIImage+Color.m in Sources */,
 				207243191E62C2FB00783CD4 /* AEButton.m in Sources */,
 				207243001E62C2FB00783CD4 /* ImgLargeScrollView.m in Sources */,
+				044AC4FD1E6FE12100EE43E3 /* HomeVC.m in Sources */,
 				207242781E62C13500783CD4 /* NetworkUtil.m in Sources */,
+				044AC5151E6FFBA700EE43E3 /* HeartRateSetVC.m in Sources */,
 				207243181E62C2FB00783CD4 /* AEToast.m in Sources */,
-				20467BE61E6AD4D400A0D69E /* SettingVC.m in Sources */,
 				207242FF1E62C2FB00783CD4 /* ImageViewer.m in Sources */,
+				044AC50C1E6FF18A00EE43E3 /* WeatherRemindVC.m in Sources */,
+				044AC5031E6FE17300EE43E3 /* SetUpVC.m in Sources */,
 				207242FB1E62C2FB00783CD4 /* DefaultView.m in Sources */,
 				207243021E62C2FB00783CD4 /* TapImageView.m in Sources */,
 				207242451E62B97100783CD4 /* ViewController.m in Sources */,
 				207243301E62C34800783CD4 /* UIImage+Additions.m in Sources */,
+				044AC4FA1E6FDFEE00EE43E3 /* LoginVC.m in Sources */,
 				207243171E62C2FB00783CD4 /* StarRatingView.m in Sources */,
 				207242421E62B97100783CD4 /* AppDelegate.m in Sources */,
 				207243361E62C34800783CD4 /* UITabBar+BadgeValue.m in Sources */,
+				044AC50F1E6FF82A00EE43E3 /* StupCountSetVC.m in Sources */,
+				044AC5001E6FE13B00EE43E3 /* FindVC.m in Sources */,
+				044AC5061E6FE18400EE43E3 /* MineVC.m in Sources */,
 				207243321E62C34800783CD4 /* UIView+Animation.m in Sources */,
 				207243391E62C85900783CD4 /* ZBAlertView.m in Sources */,
 				207243081E62C2FB00783CD4 /* OptionBarController.m in Sources */,
@@ -901,36 +852,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2072424F1E62B97100783CD4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				207242581E62B97100783CD4 /* YiHeYunTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2072425A1E62B97100783CD4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				207242631E62B97100783CD4 /* YiHeYunUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		207242551E62B97100783CD4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 207242391E62B97100783CD4 /* YiHeYun */;
-			targetProxy = 207242541E62B97100783CD4 /* PBXContainerItemProxy */;
-		};
-		207242601E62B97100783CD4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 207242391E62B97100783CD4 /* YiHeYun */;
-			targetProxy = 2072425F1E62B97100783CD4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		207242461E62B97100783CD4 /* Main.storyboard */ = {
@@ -1046,6 +968,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M2CBW36AQZ;
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = YiHeYun/YiHeYun.pch;
 				INFOPLIST_FILE = YiHeYun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1068,6 +991,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = M2CBW36AQZ;
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = YiHeYun/YiHeYun.pch;
 				INFOPLIST_FILE = YiHeYun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1080,52 +1004,6 @@
 					"-Wno-unused-variable",
 					"-Wno-documentation",
 				);
-			};
-			name = Release;
-		};
-		2072426B1E62B97100783CD4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = YiHeYunTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yhy.YiHeYunTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YiHeYun.app/YiHeYun";
-			};
-			name = Debug;
-		};
-		2072426C1E62B97100783CD4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = YiHeYunTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yhy.YiHeYunTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YiHeYun.app/YiHeYun";
-			};
-			name = Release;
-		};
-		2072426E1E62B97100783CD4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = YiHeYunUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yhy.YiHeYunUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = YiHeYun;
-			};
-			name = Debug;
-		};
-		2072426F1E62B97100783CD4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = YiHeYunUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yhy.YiHeYunUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = YiHeYun;
 			};
 			name = Release;
 		};
@@ -1146,24 +1024,6 @@
 			buildConfigurations = (
 				207242681E62B97100783CD4 /* Debug */,
 				207242691E62B97100783CD4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2072426A1E62B97100783CD4 /* Build configuration list for PBXNativeTarget "YiHeYunTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2072426B1E62B97100783CD4 /* Debug */,
-				2072426C1E62B97100783CD4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2072426D1E62B97100783CD4 /* Build configuration list for PBXNativeTarget "YiHeYunUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2072426E1E62B97100783CD4 /* Debug */,
-				2072426F1E62B97100783CD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

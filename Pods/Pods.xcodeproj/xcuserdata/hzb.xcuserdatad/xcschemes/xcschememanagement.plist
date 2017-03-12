@@ -14,7 +14,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>IQKeyboardManager.xcscheme</key>
+		<key>ISO8601DateFormatterValueTransformer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -34,7 +34,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RKValueTransformers.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>RealReachability.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RestKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -44,7 +54,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SOCKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>TZImagePickerController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TransitionKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -52,7 +72,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1286E41E1EB845C95652F628BA0C6984</key>
+		<key>080AF914A09167DB5759A733917B840F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +82,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>547053198F634A2E8ED990CBEFC07967</key>
+		<key>1D501F43EE1E49EC80CDC773FF1EE411</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>23C24E11E9CFD95DF94159F2C51888F0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5523AC3064D16254D1C58D99B7D30347</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5BE2B0D443D239B32D88D2CC915CD7DC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,17 +117,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BEF5904002DF6DA69AAC99639AB3D56C</key>
+		<key>C47E006176ABF4755350B88C088C3F0D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CEA55E6924DD9647B63709E252FEA016</key>
+		<key>CC136F6C4809A068C5E8759DB8C39F63</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D0D0C9D20C43FA94D4C88FBFE2601B8E</key>
+		<key>EF6B05F80EA4F9DD62A3CF5F456697A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFE9BFBD316E71D287F05D7C852CB9BB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

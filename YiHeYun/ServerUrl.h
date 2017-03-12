@@ -21,7 +21,7 @@
 
 #pragma mark - ---------------接口名称---------------
 
-#define URL_StartImage @"mobileapi.article.get_startImage" //获取启动图
+#define URL_Login @"YH10104" //获取启动图
 
 
 #endif /* ServerUrl_h */

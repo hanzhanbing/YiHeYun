@@ -15,7 +15,8 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - FXBlurView (1.6.4)
-  - IQKeyboardManager (4.0.6)
+  - ISO8601DateFormatterValueTransformer (0.6.1):
+    - RKValueTransformers (~> 1.1.0)
   - JPush-iOS-SDK (2.1.9)
   - MJExtension (3.0.13)
   - MJRefresh (3.0.8)
@@ -24,33 +25,58 @@ PODS:
     - RealReachability/Ping (= 1.1.8)
   - RealReachability/Connection (1.1.8)
   - RealReachability/Ping (1.1.8)
+  - RestKit (0.27.0):
+    - RestKit/Core (= 0.27.0)
+  - RestKit/Core (0.27.0):
+    - RestKit/CoreData
+    - RestKit/Network
+    - RestKit/ObjectMapping
+  - RestKit/CoreData (0.27.0):
+    - RestKit/ObjectMapping
+  - RestKit/Network (0.27.0):
+    - RestKit/ObjectMapping
+    - RestKit/Support
+    - SOCKit
+  - RestKit/ObjectMapping (0.27.0):
+    - ISO8601DateFormatterValueTransformer (~> 0.6.1)
+    - RestKit/Support
+    - RKValueTransformers (~> 1.1.0)
+  - RestKit/Support (0.27.0):
+    - TransitionKit (~> 2.2)
+  - RKValueTransformers (1.1.3)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
+  - SOCKit (1.1)
+  - TransitionKit (2.2.1)
   - TZImagePickerController (1.6.7)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
   - FXBlurView (~> 1.6.4)
-  - IQKeyboardManager (~> 4.0.6)
   - JPush-iOS-SDK (~> 2.1.9)
   - MJExtension (~> 3.0.13)
   - MJRefresh (~> 3.0.8)
   - RealReachability (~> 1.1.7)
+  - RestKit
   - SDWebImage (~> 3.8.2)
   - TZImagePickerController (~> 1.6.4)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
-  IQKeyboardManager: c52debb1967799ae7addb98eab0cf328083a874f
+  ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
   JPush-iOS-SDK: c74e4f8d066dacf27c3d37257ee20157e44c316c
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MJRefresh: fafde8f18f4afd66b434331a9beb67a6c0264056
   RealReachability: e6c8a2bbffa316006e8c282efc1ee2567d61a920
+  RestKit: a0244db34e14ed9cf059fcee2be6733cc162c34a
+  RKValueTransformers: e5ed67e3811229b616fe01bddeeafe3bb337b1b9
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SOCKit: c7376ac262bea9115b8f749358f762522a47d392
+  TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
   TZImagePickerController: d3b16a1ab3393b251a23fbb22ac2d6bc83a50d5f
 
-PODFILE CHECKSUM: f537ce6d5e132da1a36904ec6b9e18365dca7169
+PODFILE CHECKSUM: ce1774182673e082ee45795fcb45078ad012c5e0
 
 COCOAPODS: 1.0.1
